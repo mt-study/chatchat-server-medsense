@@ -1,0 +1,18 @@
+2024-11-20 09:33:33,517 httpx        22744 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-20 09:33:42,105 httpx        22744 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-20 09:35:40,544 asyncio      22744 ERROR    Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "F:\environment\anaconda3\envs\LLMpython3.8\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "F:\environment\anaconda3\envs\LLMpython3.8\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+OSError: [WinError 10038] 在一个非套接字上尝试了一个操作。
+2024-11-20 09:35:40,572 asyncio      22744 ERROR    Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "F:\environment\anaconda3\envs\LLMpython3.8\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "F:\environment\anaconda3\envs\LLMpython3.8\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+OSError: [WinError 10038] 在一个非套接字上尝试了一个操作。

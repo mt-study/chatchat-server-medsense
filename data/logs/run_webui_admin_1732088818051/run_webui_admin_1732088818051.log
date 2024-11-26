@@ -1,0 +1,6 @@
+2024-11-20 15:46:59,546 httpx        112588 INFO     HTTP Request: GET http://127.0.0.1:7861/tools "HTTP/1.1 200 OK"
+2024-11-20 15:46:59,556 httpx        112588 INFO     HTTP Request: GET http://127.0.0.1:7861/tools "HTTP/1.1 200 OK"
+2024-11-20 15:47:00,841 httpx        112588 INFO     HTTP Request: GET http://127.0.0.1:7861/tools "HTTP/1.1 200 OK"
+2024-11-20 15:47:04,168 httpx        112588 INFO     HTTP Request: GET http://127.0.0.1:7861/tools "HTTP/1.1 200 OK"
+2024-11-20 15:48:25,020 httpx        112588 INFO     HTTP Request: GET http://127.0.0.1:7861/tools "HTTP/1.1 200 OK"
+2024-11-20 15:48:37,942 httpx        112588 INFO     HTTP Request: GET http://127.0.0.1:7861/tools "HTTP/1.1 200 OK"

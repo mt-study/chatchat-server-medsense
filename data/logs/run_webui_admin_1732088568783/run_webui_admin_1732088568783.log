@@ -1,0 +1,4 @@
+2024-11-20 15:42:51,612 httpx        95164 INFO     HTTP Request: GET http://127.0.0.1:7861/tools "HTTP/1.1 200 OK"
+2024-11-20 15:42:54,116 httpx        95164 INFO     HTTP Request: GET http://127.0.0.1:7861/tools "HTTP/1.1 200 OK"
+2024-11-20 15:42:54,228 httpx        95164 INFO     HTTP Request: GET http://127.0.0.1:7861/tools "HTTP/1.1 200 OK"
+2024-11-20 15:42:55,174 httpx        95164 INFO     HTTP Request: GET http://127.0.0.1:7861/tools "HTTP/1.1 200 OK"

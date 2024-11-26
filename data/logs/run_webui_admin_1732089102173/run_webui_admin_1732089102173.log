@@ -1,0 +1,1 @@
+2024-11-20 15:51:45,211 httpx        12824 INFO     HTTP Request: GET http://127.0.0.1:7861/tools "HTTP/1.1 200 OK"

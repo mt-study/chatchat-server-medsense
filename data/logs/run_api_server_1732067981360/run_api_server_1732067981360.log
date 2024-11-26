@@ -1,0 +1,14 @@
+2024-11-20 10:53:37,938 httpx        41236 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-20 10:53:40,905 httpx        41236 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-20 10:53:42,746 faiss.loader 41236 INFO     Loading faiss with AVX2 support.
+2024-11-20 10:53:42,746 faiss.loader 41236 INFO     Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2024-11-20 10:53:42,746 faiss.loader 41236 INFO     Loading faiss.
+2024-11-20 10:53:42,934 faiss.loader 41236 INFO     Successfully loaded faiss.
+2024-11-20 10:53:45,775 httpx        41236 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-20 10:53:46,652 httpx        41236 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-20 10:55:25,333 httpx        41236 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-20 10:55:25,466 httpx        41236 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-20 10:55:27,319 httpx        41236 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-20 10:55:31,015 openai._base_client 41236 INFO     Retrying request to /chat/completions in 0.951732 seconds
+2024-11-20 10:55:34,024 openai._base_client 41236 INFO     Retrying request to /chat/completions in 1.675335 seconds

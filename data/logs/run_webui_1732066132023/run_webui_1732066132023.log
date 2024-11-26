@@ -1,0 +1,8 @@
+2024-11-20 09:28:55,906 httpx        42460 INFO     HTTP Request: GET http://127.0.0.1:7861/tools "HTTP/1.1 200 OK"
+2024-11-20 09:33:42,019 httpx        42460 INFO     HTTP Request: GET http://127.0.0.1:7861/tools "HTTP/1.1 200 OK"
+2024-11-20 09:33:42,091 httpx        42460 INFO     HTTP Request: POST http://127.0.0.1:7861/chat/chat/completions "HTTP/1.1 200 OK"
+2024-11-20 09:33:59,760 httpx        42460 INFO     HTTP Request: GET http://127.0.0.1:7861/knowledge_base/list_knowledge_bases "HTTP/1.1 200 OK"
+2024-11-20 09:33:59,906 httpx        42460 INFO     HTTP Request: GET http://127.0.0.1:7861/knowledge_base/list_knowledge_bases "HTTP/1.1 200 OK"
+2024-11-20 09:35:40,542 httpx        42460 INFO     HTTP Request: GET http://127.0.0.1:7861/tools "HTTP/1.1 200 OK"
+2024-11-20 09:35:41,435 httpx        42460 INFO     HTTP Request: GET http://127.0.0.1:7861/tools "HTTP/1.1 200 OK"
+2024-11-20 09:35:42,063 httpx        42460 INFO     HTTP Request: GET http://127.0.0.1:7861/tools "HTTP/1.1 200 OK"

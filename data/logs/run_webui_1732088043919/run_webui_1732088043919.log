@@ -1,0 +1,1 @@
+2024-11-20 15:34:32,069 httpx        4504 INFO     HTTP Request: POST http://127.0.0.1:7861/knowledge_base/local_kb/doctor/chat/completions "HTTP/1.1 200 OK"

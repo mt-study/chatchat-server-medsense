@@ -1,0 +1,6 @@
+2024-11-20 16:21:37,002 faiss.loader 24816 INFO     Loading faiss with AVX2 support.
+2024-11-20 16:21:37,003 faiss.loader 24816 INFO     Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2024-11-20 16:21:37,003 faiss.loader 24816 INFO     Loading faiss.
+2024-11-20 16:21:37,150 faiss.loader 24816 INFO     Successfully loaded faiss.
+2024-11-20 16:21:37,289 langchain_community.vectorstores.faiss 24816 WARNING  `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.

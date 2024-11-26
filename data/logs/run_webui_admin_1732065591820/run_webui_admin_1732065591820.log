@@ -1,0 +1,4 @@
+2024-11-20 09:19:57,648 httpx        25764 INFO     HTTP Request: GET http://127.0.0.1:7861/tools "HTTP/1.1 200 OK"
+2024-11-20 09:20:12,606 httpx        25764 INFO     HTTP Request: GET http://127.0.0.1:7861/knowledge_base/list_knowledge_bases "HTTP/1.1 200 OK"
+2024-11-20 09:20:12,828 httpx        25764 INFO     HTTP Request: GET http://127.0.0.1:7861/knowledge_base/list_knowledge_bases "HTTP/1.1 200 OK"
+2024-11-20 09:20:20,018 httpx        25764 INFO     HTTP Request: GET http://127.0.0.1:7861/tools "HTTP/1.1 200 OK"

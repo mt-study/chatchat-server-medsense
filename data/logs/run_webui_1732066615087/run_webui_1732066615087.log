@@ -1,0 +1,18 @@
+2024-11-20 09:36:57,227 httpx        89048 INFO     HTTP Request: GET http://127.0.0.1:7861/knowledge_base/list_knowledge_bases "HTTP/1.1 200 OK"
+2024-11-20 09:36:58,752 httpx        89048 INFO     HTTP Request: GET http://127.0.0.1:7861/knowledge_base/list_knowledge_bases "HTTP/1.1 200 OK"
+2024-11-20 09:36:58,894 httpx        89048 INFO     HTTP Request: GET http://127.0.0.1:7861/knowledge_base/list_knowledge_bases "HTTP/1.1 200 OK"
+2024-11-20 09:36:58,944 httpx        89048 INFO     HTTP Request: GET http://127.0.0.1:7861/knowledge_base/list_knowledge_bases "HTTP/1.1 200 OK"
+2024-11-20 09:37:02,162 httpx        89048 INFO     HTTP Request: GET http://127.0.0.1:7861/knowledge_base/list_knowledge_bases "HTTP/1.1 200 OK"
+2024-11-20 09:37:02,542 asyncio      89048 ERROR    Task exception was never retrieved
+future: <Task finished name='Task-318' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at F:\environment\anaconda3\envs\LLMpython3.8\lib\site-packages\tornado\websocket.py:1086> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "F:\environment\anaconda3\envs\LLMpython3.8\lib\site-packages\tornado\websocket.py", line 1088, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\environment\anaconda3\envs\LLMpython3.8\lib\site-packages\tornado\websocket.py", line 1090, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError

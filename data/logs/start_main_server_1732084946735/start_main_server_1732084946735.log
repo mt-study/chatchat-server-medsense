@@ -1,0 +1,32 @@
+2024-11-20 14:44:49,477 asyncio      131340 ERROR    Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<start_main_server() done, defined at C:\Users\jackddl\Desktop\333\chatchat-server\chatchat\startup.py:310> exception=KeyboardInterrupt('SIGINT received')>
+Traceback (most recent call last):
+  File "F:\environment\anaconda3\envs\LLMpython3.8\lib\site-packages\click\core.py", line 1078, in main
+    rv = self.invoke(ctx)
+  File "F:\environment\anaconda3\envs\LLMpython3.8\lib\site-packages\click\core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "F:\environment\anaconda3\envs\LLMpython3.8\lib\site-packages\click\core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "F:\environment\anaconda3\envs\LLMpython3.8\lib\site-packages\click\core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "C:\Users\jackddl\Desktop\333\chatchat-server\chatchat\startup.py", line 508, in main
+    loop.run_until_complete(start_main_server(args))
+  File "F:\edit\PyCharm 2024.2.1\plugins\python\helpers-pro\pydevd_asyncio\pydevd_nest_asyncio.py", line 234, in run_until_complete
+    self._run_once()
+  File "F:\edit\PyCharm 2024.2.1\plugins\python\helpers-pro\pydevd_asyncio\pydevd_nest_asyncio.py", line 286, in _run_once
+    handle._run()
+  File "F:\environment\anaconda3\envs\LLMpython3.8\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "F:\edit\PyCharm 2024.2.1\plugins\python\helpers-pro\pydevd_asyncio\pydevd_nest_asyncio.py", line 394, in step
+    step_orig(task, exc)
+  File "F:\environment\anaconda3\envs\LLMpython3.8\lib\asyncio\tasks.py", line 256, in __step
+    result = coro.send(None)
+  File "C:\Users\jackddl\Desktop\333\chatchat-server\chatchat\startup.py", line 431, in start_main_server
+    p.join(2)
+  File "F:\environment\anaconda3\envs\LLMpython3.8\lib\multiprocessing\process.py", line 149, in join
+    res = self._popen.wait(timeout)
+  File "F:\environment\anaconda3\envs\LLMpython3.8\lib\multiprocessing\popen_spawn_win32.py", line 108, in wait
+    res = _winapi.WaitForSingleObject(int(self._handle), msecs)
+  File "C:\Users\jackddl\Desktop\333\chatchat-server\chatchat\startup.py", line 339, in f
+    raise KeyboardInterrupt(f"{signalname} received")
+KeyboardInterrupt: SIGINT received

@@ -1,0 +1,3 @@
+2024-11-20 09:42:27,957 httpx        2196 INFO     HTTP Request: GET http://127.0.0.1:7861/tools "HTTP/1.1 200 OK"
+2024-11-20 09:42:40,573 httpx        2196 INFO     HTTP Request: GET http://127.0.0.1:7861/tools "HTTP/1.1 200 OK"
+2024-11-20 09:42:40,737 httpx        2196 INFO     HTTP Request: GET http://127.0.0.1:7861/tools "HTTP/1.1 200 OK"

@@ -1,0 +1,49 @@
+2024-11-20 18:51:16,266 httpx        664 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-20 18:51:16,332 httpx        664 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-20 18:51:18,192 faiss.loader 664 INFO     Loading faiss with AVX2 support.
+2024-11-20 18:51:18,192 faiss.loader 664 INFO     Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2024-11-20 18:51:18,192 faiss.loader 664 INFO     Loading faiss.
+2024-11-20 18:51:18,315 faiss.loader 664 INFO     Successfully loaded faiss.
+2024-11-20 18:51:20,606 httpx        664 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-20 18:51:21,059 httpx        664 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-20 18:51:47,397 httpx        664 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-20 18:51:47,534 httpx        664 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-20 18:51:48,373 httpx        664 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-20 18:51:48,422 httpx        664 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-20 18:52:05,393 asyncio      664 ERROR    Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "F:\environment\anaconda3\envs\LLMpython3.8\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "F:\environment\anaconda3\envs\LLMpython3.8\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+OSError: [WinError 10038] 在一个非套接字上尝试了一个操作。
+2024-11-20 18:52:08,240 httpx        664 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-20 18:52:08,397 httpx        664 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-20 18:52:09,261 httpx        664 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-20 18:52:09,310 httpx        664 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-20 18:59:44,200 httpx        664 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-20 18:59:44,299 httpx        664 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-20 18:59:44,325 asyncio      664 ERROR    Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "F:\environment\anaconda3\envs\LLMpython3.8\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "F:\environment\anaconda3\envs\LLMpython3.8\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+OSError: [WinError 10038] 在一个非套接字上尝试了一个操作。
+2024-11-20 18:59:45,228 httpx        664 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-20 18:59:45,281 httpx        664 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-20 18:59:53,740 httpx        664 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-20 18:59:53,744 asyncio      664 ERROR    Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "F:\environment\anaconda3\envs\LLMpython3.8\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "F:\environment\anaconda3\envs\LLMpython3.8\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+OSError: [WinError 10038] 在一个非套接字上尝试了一个操作。
+2024-11-20 18:59:53,790 httpx        664 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-20 18:59:54,654 httpx        664 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-20 18:59:54,701 httpx        664 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/chat/completions "HTTP/1.1 200 OK"

@@ -1,0 +1,7 @@
+2024-11-20 14:51:24,826 httpx        38264 INFO     HTTP Request: POST http://127.0.0.1:7861/knowledge_base/local_kb/samples/chat/completions "HTTP/1.1 200 OK"
+2024-11-20 14:51:35,449 httpx        38264 INFO     HTTP Request: POST http://127.0.0.1:7861/knowledge_base/local_kb/samples/chat/completions "HTTP/1.1 200 OK"
+2024-11-20 15:02:36,723 httpx        38264 INFO     HTTP Request: POST http://127.0.0.1:7861/knowledge_base/local_kb/samples/chat/completions "HTTP/1.1 200 OK"
+2024-11-20 15:05:36,034 httpx        38264 INFO     HTTP Request: POST http://127.0.0.1:7861/knowledge_base/local_kb/samples/chat/completions "HTTP/1.1 200 OK"
+2024-11-20 15:05:55,308 httpx        38264 INFO     HTTP Request: POST http://127.0.0.1:7861/knowledge_base/local_kb/samples/chat/completions "HTTP/1.1 200 OK"
+2024-11-20 15:07:15,388 httpx        38264 INFO     HTTP Request: POST http://127.0.0.1:7861/knowledge_base/local_kb/samples/chat/completions "HTTP/1.1 200 OK"
+2024-11-20 15:07:27,503 httpx        38264 INFO     HTTP Request: POST http://127.0.0.1:7861/knowledge_base/local_kb/samples/chat/completions "HTTP/1.1 200 OK"

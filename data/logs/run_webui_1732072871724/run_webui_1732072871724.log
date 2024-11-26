@@ -1,0 +1,1 @@
+2024-11-20 11:21:23,419 httpx        71592 INFO     HTTP Request: POST http://127.0.0.1:7861/knowledge_base/local_kb/doctor/chat/completions "HTTP/1.1 200 OK"

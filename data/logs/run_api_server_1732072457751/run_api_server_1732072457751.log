@@ -1,0 +1,7 @@
+2024-11-20 11:17:43,342 httpx        106116 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-20 11:17:43,472 httpx        106116 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-20 11:17:45,465 faiss.loader 106116 INFO     Loading faiss with AVX2 support.
+2024-11-20 11:17:45,465 faiss.loader 106116 INFO     Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2024-11-20 11:17:45,465 faiss.loader 106116 INFO     Loading faiss.
+2024-11-20 11:17:45,624 faiss.loader 106116 INFO     Successfully loaded faiss.

@@ -1,0 +1,6 @@
+2024-11-23 23:57:06,636 httpx        36872 INFO     HTTP Request: POST http://127.0.0.1:7861/knowledge_base/local_kb/doctor/chat/completions "HTTP/1.1 200 OK"
+2024-11-24 08:38:58,298 httpx        36872 INFO     HTTP Request: POST http://127.0.0.1:7861/knowledge_base/local_kb/doctor/chat/completions "HTTP/1.1 200 OK"
+2024-11-24 09:32:37,750 httpx        36872 INFO     HTTP Request: POST http://127.0.0.1:7861/knowledge_base/local_kb/doctor/chat/completions "HTTP/1.1 200 OK"
+2024-11-24 09:45:43,238 httpx        36872 INFO     HTTP Request: POST http://127.0.0.1:7861/knowledge_base/local_kb/doctor/chat/completions "HTTP/1.1 200 OK"
+2024-11-24 09:54:59,172 httpx        36872 INFO     HTTP Request: POST http://127.0.0.1:7861/knowledge_base/local_kb/doctor/chat/completions "HTTP/1.1 200 OK"
+2024-11-24 09:55:14,052 httpx        36872 INFO     HTTP Request: POST http://127.0.0.1:7861/knowledge_base/local_kb/doctor/chat/completions "HTTP/1.1 200 OK"

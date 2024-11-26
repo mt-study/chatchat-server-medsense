@@ -1,0 +1,49 @@
+2024-11-24 09:32:40,241 httpx        35464 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-24 09:32:40,350 httpx        35464 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-24 09:32:42,103 faiss.loader 35464 INFO     Loading faiss with AVX2 support.
+2024-11-24 09:32:42,103 faiss.loader 35464 INFO     Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2024-11-24 09:32:42,103 faiss.loader 35464 INFO     Loading faiss.
+2024-11-24 09:32:42,278 faiss.loader 35464 INFO     Successfully loaded faiss.
+2024-11-24 09:32:47,503 httpx        35464 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-24 09:32:49,977 openai._base_client 35464 INFO     Retrying request to /chat/completions in 0.921334 seconds
+2024-11-24 09:32:52,975 openai._base_client 35464 INFO     Retrying request to /chat/completions in 1.652533 seconds
+2024-11-24 09:32:56,329 httpx        35464 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-24 09:33:09,904 httpx        35464 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-24 09:33:09,959 httpx        35464 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-24 09:33:10,758 httpx        35464 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-24 09:33:10,807 httpx        35464 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-24 09:45:43,217 asyncio      35464 ERROR    Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "F:\environment\anaconda3\envs\LLMpython3.8\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "F:\environment\anaconda3\envs\LLMpython3.8\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+OSError: [WinError 10038] 在一个非套接字上尝试了一个操作。
+2024-11-24 09:45:43,342 httpx        35464 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-24 09:45:43,418 httpx        35464 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-24 09:45:44,246 httpx        35464 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-24 09:45:46,336 openai._base_client 35464 INFO     Retrying request to /chat/completions in 0.848115 seconds
+2024-11-24 09:45:49,259 openai._base_client 35464 INFO     Retrying request to /chat/completions in 1.560745 seconds
+2024-11-24 09:45:53,520 httpx        35464 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-24 09:45:53,595 httpx        35464 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-24 09:45:54,425 httpx        35464 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-24 09:45:54,471 httpx        35464 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-24 09:54:59,275 httpx        35464 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-24 09:54:59,280 asyncio      35464 ERROR    Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "F:\environment\anaconda3\envs\LLMpython3.8\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "F:\environment\anaconda3\envs\LLMpython3.8\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+OSError: [WinError 10038] 在一个非套接字上尝试了一个操作。
+2024-11-24 09:54:59,376 httpx        35464 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-24 09:55:00,261 httpx        35464 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-24 09:55:02,354 openai._base_client 35464 INFO     Retrying request to /chat/completions in 0.874092 seconds
+2024-11-24 09:55:05,305 openai._base_client 35464 INFO     Retrying request to /chat/completions in 1.679616 seconds
+2024-11-24 09:55:14,112 httpx        35464 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-24 09:55:14,163 httpx        35464 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-24 09:55:14,972 httpx        35464 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-24 09:55:15,021 httpx        35464 INFO     HTTP Request: POST http://127.0.0.1:9997/v1/chat/completions "HTTP/1.1 200 OK"

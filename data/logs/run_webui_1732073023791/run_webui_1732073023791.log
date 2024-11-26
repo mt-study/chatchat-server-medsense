@@ -1,0 +1,15 @@
+2024-11-20 11:24:06,672 httpx        92592 INFO     HTTP Request: POST http://127.0.0.1:7861/knowledge_base/local_kb/doctor/chat/completions "HTTP/1.1 200 OK"
+2024-11-20 11:24:09,450 asyncio      92592 ERROR    Exception in callback AppSession._on_scriptrunner_event.<locals>.<lambda>() at F:\environment\anaconda3\envs\LLMpython3.8\lib\site-packages\streamlit\runtime\app_session.py:487
+handle: <Handle AppSession._on_scriptrunner_event.<locals>.<lambda>() at F:\environment\anaconda3\envs\LLMpython3.8\lib\site-packages\streamlit\runtime\app_session.py:487>
+Traceback (most recent call last):
+  File "F:\environment\anaconda3\envs\LLMpython3.8\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "F:\environment\anaconda3\envs\LLMpython3.8\lib\site-packages\streamlit\runtime\app_session.py", line 487, in <lambda>
+    lambda: self._handle_scriptrunner_event_on_event_loop(
+  File "F:\environment\anaconda3\envs\LLMpython3.8\lib\site-packages\streamlit\runtime\app_session.py", line 608, in _handle_scriptrunner_event_on_event_loop
+    self._local_sources_watcher.update_watched_modules()
+  File "F:\environment\anaconda3\envs\LLMpython3.8\lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 158, in update_watched_modules
+    modules_paths = {
+  File "F:\environment\anaconda3\envs\LLMpython3.8\lib\site-packages\streamlit\watcher\local_sources_watcher.py", line 159, in <dictcomp>
+    name: self._exclude_blacklisted_paths(get_module_paths(module))
+MemoryError
